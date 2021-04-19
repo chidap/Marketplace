@@ -1,5 +1,4 @@
 
-
 // Payload object => { type: "LOGGED_IN_USER", payload: { name: "Ryan", role : "Seller" } }
 export const authReducer = (state = {name: "Chida", role : "Seller"}, action)=> {
     switch(action.type){
